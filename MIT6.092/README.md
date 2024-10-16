@@ -6,3 +6,5 @@ You can find all the resources to take this course in the website.
 Assignments1: Computes an object will fall in Earth's gravity.
 
 Assignments2: To calculate pay for hourly employees.
+
+Assignment4的代码目前没有考虑重复放入相同名称的书籍的问题，而且for循环写的有点多，效率不高。
