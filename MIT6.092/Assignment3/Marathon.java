@@ -1,6 +1,9 @@
+import java.util.ArrayList;
+
 class Marathon {
     public static int bestrunner(int[] times) {
         int num=0;
+        ArrayList<Integer> ni = new ArrayList<>();
         int mintime = times[1];
         for(int i=1;i<=times.length -1;i++){
             if(times[i] < mintime){
