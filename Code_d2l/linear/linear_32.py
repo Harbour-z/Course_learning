@@ -56,7 +56,7 @@ def sgd(params, lr, batch_size):
       param.grad.zero_()
       
 # Traning
-lr = 0.03
+lr = 0.03 
 num_epochs = 30
 net = linreg
 loss = squard_loss
