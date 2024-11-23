@@ -10,6 +10,6 @@ https://ocw.mit.edu/courses/6-092-introduction-to-programming-in-java-january-ia
 
 TODO:
 
-- []学完MIT6.092
+- [] 学完MIT6.092
   
-- []为这个repo添加一个基于github pages + mkdocs 的笔记网站
+- [] 为这个repo添加一个基于github pages + mkdocs 的笔记网站

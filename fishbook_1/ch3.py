@@ -15,3 +15,8 @@ a2=np.dot(z1,w2)+b2
 z2=sigmoid(a2)
 def identity_function(x):
   return x
+w3=np.array([[0.1,0.3],[0.2,0.4]])
+b3=np.array([0.1,0.2])
+a3=np.dot(z2,w3)+b3
+y=identity_function(a3)
+print(y)
