@@ -10,5 +10,5 @@ https://ocw.mit.edu/courses/6-092-introduction-to-programming-in-java-january-ia
 
 TODO:
 
-- [ ] Build a website for this repo which based on githubpages + mkdocs material
+- [x] Build a website for this repo which based on githubpages + mkdocs material
 - [ ] Finish Learning mit 6.092
