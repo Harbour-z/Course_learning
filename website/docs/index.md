@@ -1,4 +1,5 @@
 # Welcome to my Self-learning Notes
+This is a website or repo which store my notes when I self-learn courses.
 
 
 Todo:

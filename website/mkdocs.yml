@@ -10,6 +10,13 @@ nav:
     - 首页: index.md
     - MIT 6.092:
       - '': mit6.092\index.md
+      - Lecture1: mit6.092\lec1.md
+      - Lecture2: mit6.092\lec2.md
+      - Lecture3: mit6.092\lec3.md
+      - Lecture4: mit6.092\lec4.md
+      - Lecture5: mit6.092\lec5.md
+      - Lecture6: mit6.092\lec6.md
+      - Lecture7: mit6.092\lec7.md
     - 动手学深度学习:
       - '': d2l\index.md
     - FishBook:
