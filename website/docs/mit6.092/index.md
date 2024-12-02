@@ -4,7 +4,9 @@
 
 ## 课程简介
 这门课程是MIT的Java入门课程，一节课是一个小时的Lec+一个小时的Lab，整个课程共七节(14学时)。
-课程的全部实现在: [https://ocw.mit.edu/courses/6-092-introduction-to-programming-in-java-january-iap-2010/](https://ocw.mit.edu/courses/6-092-introduction-to-programming-in-java-january-iap-2010/)
+课程的全部资源在: [https://ocw.mit.edu/courses/6-092-introduction-to-programming-in-java-january-iap-2010/](https://ocw.mit.edu/courses/6-092-introduction-to-programming-in-java-january-iap-2010/)
+
+课程教材在：https://greenteapress.com/wp/think-java-2e/
 
 我对于这门课程的代码实现放置于仓库：[https://github.com/Harbour-z/Course_learning/tree/main/MIT6.092](https://github.com/Harbour-z/Course_learning/tree/main/MIT6.092)
 
