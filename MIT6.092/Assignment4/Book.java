@@ -1,7 +1,7 @@
 public class Book {
 
-    String title;
-    boolean borrowed;
+    private String title;
+    private boolean borrowed;
 
     // Creates a new Book
     public Book(String bookTitle) {

@@ -28,13 +28,13 @@ public class Library {
         int flag = 0;
         for(int i = 0;i <=this.booknums-1;i++){
             Book crbook = this.books.get(i);
-            if(crbook.title.equals(bookname) && crbook.borrowed == false){
-                crbook.borrowed = true;
+            if(crbook.getTitle().equals(bookname) && crbook.isBorrowed() == false){
+                crbook.borrowed();
                 System.out.println("You successfully borrowed" + bookname);
                 flag  = 1;
                 break;
             }
-            else if(crbook.title.equals(bookname) && crbook.borrowed == true){
+            else if(crbook.getTitle().equals(bookname) && crbook.isBorrowed() == true){
                 System.out.println("Sorry, this book is already borrowed.");
                 flag = 1;
                 break;
@@ -49,9 +49,9 @@ public class Library {
     public void returnBook(String name){
         for(int i=0;i<=this.booknums-1;i++){
             Book crbook = this.books.get(i);
-            if(crbook.title.equals(name) && crbook.borrowed==true){
+            if(crbook.getTitle().equals(name) && crbook.isBorrowed()==true){
                 System.out.println("You successfully returned "+ name);
-                crbook.borrowed = false;
+                crbook.returned();
             }
         }
 
@@ -60,8 +60,8 @@ public class Library {
         int flag = 0;
         for(int i = 0; i<= this.booknums-1;i++){
             Book crbook = this.books.get(i);
-            if(crbook.borrowed == false){
-                System.out.println(crbook.title);
+            if(crbook.isBorrowed() == false){
+                System.out.println(crbook.getTitle());
                 flag = 1;
             }
         }

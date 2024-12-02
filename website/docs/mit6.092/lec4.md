@@ -97,3 +97,6 @@ b1.numBabiesMade?  b2.numBabiesMade?
 
 !!!Thinking
     为什么Java中main方法是静态的
+
+## Lab中的一个有趣的Notes
+You should get a small part working at a time. Start by commenting the entire `main` method, then uncomment it line by lin.
