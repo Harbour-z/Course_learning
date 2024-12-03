@@ -18,6 +18,10 @@ public class learn {
     System.out.println(i);
     System.out.println(j[0]);
     System.out.println(k);
+    int x=Integer.MAX_VALUE;
+    System.out.println(
+      x
+    );
   }
 
   

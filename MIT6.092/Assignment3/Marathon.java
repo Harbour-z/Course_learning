@@ -1,9 +1,7 @@
-import java.util.ArrayList;
-
 class Marathon {
     public static int bestrunner(int[] times) {
         int num=0;
-        ArrayList<Integer> ni = new ArrayList<>();
+        
         int mintime = times[1];
         for(int i=1;i<=times.length -1;i++){
             if(times[i] < mintime){
@@ -16,6 +14,9 @@ class Marathon {
     public static int secondrunner(int mini,int[] times){
         int num = 0;
         // To be implement;
+        num = bestrunner(times);
+        times[num]=Integer.MAX_VALUE;
+        return bestrunner(times);
     }
     public static void main (String[] arguments) {
         String[] names = {
