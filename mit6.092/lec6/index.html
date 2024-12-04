@@ -116,6 +116,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#lecture-6-design-debugging-interfaces" class="md-skip">
+          跳转至
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -311,6 +316,26 @@
     
   
   动手学深度学习
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../missing_seme/" class="md-tabs__link">
+          
+  
+    
+  
+  MIT-Missing-Semester
 
         </a>
       </li>
@@ -603,6 +628,19 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Lecture6
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -613,6 +651,91 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#a-good-program" class="md-nav__link">
+    <span class="md-ellipsis">
+      A good program
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A good program">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#good-naming" class="md-nav__link">
+    <span class="md-ellipsis">
+      Good Naming
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#good-class-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Good Class Design
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debugging" class="md-nav__link">
+    <span class="md-ellipsis">
+      Debugging
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interfaces" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interfaces
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Interfaces">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#java-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      Java Interface
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -713,6 +836,8 @@
     
       
         
+          
+        
       
     
     
@@ -727,7 +852,61 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../missing_seme/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    MIT-Missing-Semester
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            MIT-Missing-Semester
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -738,8 +917,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             FishBook
           </label>
@@ -768,7 +947,7 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
         
           
           
@@ -785,8 +964,8 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4_1">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
             <span class="md-nav__icon md-icon"></span>
             FishBook1
           </label>
@@ -826,6 +1005,82 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#a-good-program" class="md-nav__link">
+    <span class="md-ellipsis">
+      A good program
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A good program">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#good-naming" class="md-nav__link">
+    <span class="md-ellipsis">
+      Good Naming
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#good-class-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Good Class Design
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debugging" class="md-nav__link">
+    <span class="md-ellipsis">
+      Debugging
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interfaces" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interfaces
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Interfaces">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#java-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      Java Interface
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -856,9 +1111,48 @@
   
 
 
-  <h1>Lecture6</h1>
-
-
+<h1 id="lecture-6-design-debugging-interfaces">Lecture 6: Design, Debugging, Interfaces<a class="headerlink" href="#lecture-6-design-debugging-interfaces" title="Permanent link"></a></h1>
+<h2 id="a-good-program">A good program<a class="headerlink" href="#a-good-program" title="Permanent link"></a></h2>
+<ul>
+<li>Correct / no errors</li>
+<li>Easy to understand</li>
+<li>Easy to modify / extend</li>
+<li>Good performance(speed)</li>
+<li>writing code with a consistent way makes it easier to write and understand</li>
+</ul>
+<h3 id="good-naming">Good Naming<a class="headerlink" href="#good-naming" title="Permanent link"></a></h3>
+<p>● variables: Nouns, lowercase first letter, capitals separating words
+● Methods: Verbs, then same with variavles
+● Classed: Nouns, uppercase first letter.</p>
+<h3 id="good-class-design">Good Class Design<a class="headerlink" href="#good-class-design" title="Permanent link"></a></h3>
+<p>● Make fields and methods private by default
+● Only make methods public if you need to
+● If you need access to a field, create a method;
+将field字段private是之前没有考虑的
+public int getBar(){return bar;}</p>
+<h2 id="debugging">Debugging<a class="headerlink" href="#debugging" title="Permanent link"></a></h2>
+<p><strong>Design: Pseudocode（伪代码）</strong></p>
+<ul>
+<li>A high-level, understandable description of what a program is supposed to do</li>
+<li>Don't worry about the details, worry about the structure.</li>
+</ul>
+<p>这里提到了一种方法叫作区间测试Interval Testing，其用于检查程序在特定输入区间内的行为。</p>
+<p>在设计程序的时候，可以为对象或者程序工作流程进行视觉上的一些设计，不要特别关注特定的符号表示是怎么样的，只需要对你合理即可。这里我理解的意思就像slides中展示的这副图片一样，进行可视化的一些设计就会清晰很多：
+<img alt="" src="../images/debug.png" /></p>
+<p>可以考虑重要的输入和边界值等来进行一些测试，尽早发现程序的问题。</p>
+<p>Assertions是一种很好用的工具/语法，以前我自己写程序倒是很少用到过，以后会逐渐尝试这种工具。</p>
+<h2 id="interfaces">Interfaces<a class="headerlink" href="#interfaces" title="Permanent link"></a></h2>
+<p>介绍了使用methods的好处，比如封装和复用性，还可以隐藏具体实现只对外暴露接口，使用的人也无需知道具体实现</p>
+<h3 id="java-interface">Java Interface<a class="headerlink" href="#java-interface" title="Permanent link"></a></h3>
+<ul>
+<li>Manipulate objects, without knowing how they work</li>
+<li>Useful when you have similar but not identical objects</li>
+<li>Useful when you want to use code written by others</li>
+<li>Set of classes that share methods</li>
+<li>declare an interface with the common methods</li>
+<li>Interface only have methods, only definition (called signatures) without codes</li>
+<li>A class can implement any number of interface</li>
+</ul>
 
 
 
@@ -879,7 +1173,7 @@
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2024年12月1日</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2024年12月4日</span>
   </span>
 
     
