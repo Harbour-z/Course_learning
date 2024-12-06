@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class learn {
   public class  Baby {
     static int numBabie=0;
@@ -10,18 +12,9 @@ public class learn {
     b.name = "99";
   }
   public static void main(String[] args) {
-    learn a = new learn();
-    int i=0;
-    int[] j={0};
-    Baby k = a.new Baby();
-    doSomething(i,j,k);
-    System.out.println(i);
-    System.out.println(j[0]);
-    System.out.println(k);
-    int x=Integer.MAX_VALUE;
-    System.out.println(
-      x
-    );
+    ArrayList<Integer> a = new ArrayList<Integer>();
+    a.add(1);
+    System.out.println(a.size());
   }
 
   
