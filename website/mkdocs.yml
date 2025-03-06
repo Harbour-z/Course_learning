@@ -8,6 +8,11 @@ repo_url: https://github.com/Harbour-z/Course_learning.git/ # 仓库地址
 copyright: Copyright &copy; 2024 ~ now | Zhidong Zhang
 nav:
     - 首页: index.md
+    - Backend Dev:
+      - '': backend\index.md
+      - JavaSE-上: backend\javase1.md
+      - JavaSE-下: backend\javase2.md
+      - MySQL基础笔记: backend\mysql_base.md
     - MIT 6.092:
       - '': mit6.092\index.md
       - Lecture1: mit6.092\lec1.md
@@ -17,8 +22,17 @@ nav:
       - Lecture5: mit6.092\lec5.md
       - Lecture6: mit6.092\lec6.md
       - Lecture7: mit6.092\lec7.md
+    - 南京大学ICS PA2024:
+      - '': pa2024\index.md
+      - PA0: pa2024\pa0.md
+      - PA1: pa2024\pa1.md
+      - PA2: pa2024\pa2.md
+      - PA3: pa2024\pa3.md
+      - PA4: pa2024\pa4.md
     - 动手学深度学习:
       - '': d2l\index.md
+      - 预备知识: d2l\ch2.md
+      - 线性神经网络: d2l\ch3.md
     - MIT-Missing-Semester:
       - '': missing_seme\index.md
     - FishBook:
