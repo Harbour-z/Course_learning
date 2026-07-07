@@ -2,7 +2,7 @@ class Marathon {
     public static int bestrunner(int[] times) {
         int num=0;
         
-        int mintime = times[1];
+        int mintime = times[0];
         for(int i=1;i<=times.length -1;i++){
             if(times[i] < mintime){
                 mintime = times[i];
@@ -11,7 +11,7 @@ class Marathon {
         }
         return num;
     }
-    public static int secondrunner(int mini,int[] times){
+    public static int secondrunner(int[] times){
         int num = 0;
         // To be implement;
         num = bestrunner(times);
@@ -32,6 +32,9 @@ class Marathon {
         int num = bestrunner(times);
         System.out.println(names[num]+" "+times[num]);
 
+        // Optional
+        int secondBestIndex = secondrunner(times);
+        System.out.println(names[secondBestIndex] + " " + times[secondBestIndex]);
 
     }
 } 
